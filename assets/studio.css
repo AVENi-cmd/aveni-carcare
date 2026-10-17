@@ -91,3 +91,8 @@ h1,h2,h3{letter-spacing:0}body{color:var(--ink)}.hero,.coverage,footer,.aveni-ba
 #coverageCar.sedan-diagram[data-mode=full] .sedan-shell,#coverageCar.sedan-diagram[data-mode=full] .sedan-glass>path,#coverageCar.sedan-diagram[data-mode=full] .sedan-wheels>rect,#coverageCar.sedan-diagram[data-mode=full] .sedan-lamps>path,#coverageCar.sedan-diagram[data-mode=full] .sedan-grille>path{fill:#24533f;stroke:#c1cec3;stroke-width:1.2}
 
 .aveni-banner .btn{gap:15px;flex-wrap:wrap}.offer-button-price{display:inline-flex;align-items:baseline;gap:6px;white-space:nowrap;color:#10271f}.offer-button-price strong{font-size:29px;font-weight:700;line-height:1.2;font-variant-numeric:tabular-nums}.offer-button-price>span{font-size:14px;font-weight:500}.aveni-banner .btn>.icon{width:20px;height:20px}@media(max-width:600px){.aveni-banner .btn{gap:12px;padding:15px 18px}.offer-button-price strong{font-size:28px}.offer-button-price>span{font-size:13px}}
+
+/* Longer business placeholder in compact headers */
+.site-header .brand{min-width:0}.site-header .brand>span:last-child{min-width:0}.site-header .brand b{font-size:22px;line-height:1.3}
+@media(max-width:600px){.site-header .brand{gap:6px;flex:1}.site-header .brand b{font-size:17px;max-width:110px}.site-header .brand-symbol{flex-shrink:0;width:30px}.site-header .brand small{font-size:7px}}
+@media(max-width:360px){.site-header .brand-symbol{display:none}.site-header .brand b{font-size:15px}}
